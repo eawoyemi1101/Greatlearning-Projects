@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+#recipe-list {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.recipe {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.recipe:last-child {
+    border-bottom: none;
+}

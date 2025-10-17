@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Football Clubs</title>
+    <link rel="stylesheet" href="styles.css">
+    <script href = "script.js"></script>
+    <script href = "footballClubs.js"></script>
+    
+</head>
+<body>
+    <input type="text" id="search-box" placeholder="Search by name, league or city" oninput="handleSearchInput()">
+    <div id="club-list" class="active">
+        <!-- List of football clubs will be displayed here -->
+    </div>
+
+    <div id="club-details" class="club-details">
+        <h2 id="club-title">Club Title</h2>
+        <img id="club-logo" src="" alt="Club Logo">
+        <p id="club-league">League: </p>
+        <p id="club-city">City: </p>
+        <p id="club-stadium">Stadium: </p>
+        <p id="club-description">Description: </p>
+        <button onclick="goBack()">Back</button>
+        <button onclick="viewPlayers()">View Players</button>
+    </div>
+
+    <div id="player-details" class="player-details">
+        <h2>Players of <span id="club-title-players">Club Title</span></h2>
+        <ul id="players-list">
+            <!-- Player details will be populated here -->
+        </ul>
+        <button onclick="goBackToClub()">Back</button>
+    </div>
+
+    <script src="footballClubs.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

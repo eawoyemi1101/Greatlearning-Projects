@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href = "Order.css" rel = "stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>Place Order</h1>
+    </header>
+    <nav>
+        <a href="homepage1.html">Home</a>
+        <a href="fooditems.html">Menu</a>
+    </nav>
+    <div class="container">
+        <form id="orderForm">
+            <div class="form-group">
+                <label for="itemName">Item Name:</label>
+                <input type="text" id="itemName" name="itemName" required>
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Place Order</button>
+            </div>
+        </form>
+    </div>
+    <a href="homepage1.html">Home</a>
+</body>
+</html>

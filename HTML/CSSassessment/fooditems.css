@@ -1,0 +1,54 @@
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: white;
+                color: #333;
+            }
+            
+            h1 {
+                text-align: center;
+                margin-top: 30px;
+                color: blue
+            }
+            
+            p {
+                margin-bottom: 20px;
+            }
+            
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            
+            li {
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+            
+            li:before {
+                content: "\2022"; /* Add bullet symbol */
+                color: #0066cc;
+                display: inline-block;
+                width: 1em;
+            
+                        }
+            
+            /* Style the container */
+            .container {
+                max-width: 800px;
+                margin: 20px auto;
+                padding: 20px;
+                background-color: #fff;
+            }
+
+            * {
+                text-align: center;
+            }
